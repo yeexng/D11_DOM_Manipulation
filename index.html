@@ -87,19 +87,19 @@
     <script>
         
         function changeTitleTo(newTitle) {
-            let h1Node = document.getElementsByTagName("h1")
-
+            let h1Node = document.getElementsByTagName("h1")[0]
+            console.log(changeTitleTo)
             h1Node.innerText = newTitle
         }
 
         function changeBgColor(color) {
-            let bgColor = document.getElementsByTagName("body")
+            let bgColor = document.getElementsByTagName("body")[0]
 
-            bgColor.style.backgroundColor = "";
+            bgColor.style.backgroundColor ="blue";
         }
 
         function changeFooterAddress(newTitle) {
-            let footerAddress = document.getElementsByTagName("footer")
+            let footerAddress = document.getElementsByTagName("footer")[0]
 
             footerAddress.innerText = newTitle
         }
