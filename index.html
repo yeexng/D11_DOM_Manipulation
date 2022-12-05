@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop</title>
+    <style>
+        img { 
+            width: 50px;
+            height: 50px;
+        }
+
+        table {
+            border : solid;
+
+        }
+
+        td {
+            border-top: solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Shop</h1>
+    <div>
+        <table>
+            <tr>
+              <th>Product</th>
+              <th>Image</th>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>iPhone 14</td>
+              <td><img src="iphone.jpg" alt="iPhone14"></td>
+              <td>Apple iPhone 14 (512 GB) - Midnight</td>
+              <td><a href="https://www.amazon.co.uk/Apple-iPhone-14-512-GB/dp/B0BDJJCCYW/ref=sr_1_2_sspa?crid=2LBYTTTM0Y8HM&keywords=iphone&qid=1670254655&sprefix=iphone%2Caps%2C82&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Link</a></td>
+              <td>£1,179.00</td>
+            </tr>
+            <tr>
+              <td>Samsung Galaxy S22</td>
+              <td><img src="samsung.jpg" alt="Samsung Smartphone"></td>
+              <td>Samsung Galaxy S22 Ultra 5G Mobile Phone 128GB SIM Free Android Smartphone Phantom White</td>
+              <td><a href="https://www.amazon.co.uk/Samsung-Galaxy-Android-Smartphone-Phantom/dp/B09NRXJWWH/ref=sr_1_8?crid=3M37BB84KZ155&keywords=samsung&qid=1670254819&sprefix=samsung%2Caps%2C88&sr=8-8">Link</a></td>
+              <td>£980.00</td>
+            </tr>
+            <tr>
+              <td>Samsung Galaxy Z Flip3</td>
+              <td><img src="zflip.jpg" alt="z Flip3"></td>
+              <td>
+                Samsung Galaxy Z Flip3 5G Smartphone Sim Free Android Folding phone 256GB Black (UK Version) 3 Year Warranty</td>
+              <td><a href="https://www.amazon.co.uk/Samsung-Smartphone-Android-Folding-Warranty/dp/B0BCWSDSJ9/ref=sr_1_10?crid=3M37BB84KZ155&keywords=samsung&qid=1670254913&sprefix=samsung%2Caps%2C88&sr=8-10"></a>Link</td>
+              <td>£999.00</td>
+            </tr>
+            <tr>
+              <td>Smart Watch</td>
+              <td><img src="smartwatch.jpg" alt="smart Watch"></td>
+              <td>
+                Samsung Galaxy Watch5 Pro Smart Watch, Health Monitoring, Fitness Tracker, Long Lasting Battery, Bluetooth, 45mm, Black Titanium, UK Version</td>
+              <td><a href="https://www.amazon.co.uk/Samsung-Monitoring-Fitness-Bluetooth-Titanium-Black/dp/B0B4DS9M9F/ref=zg-bsnr_kitchen_sccl_1/258-6025085-6913408?pd_rd_w=pWENx&content-id=amzn1.sym.c3077bff-a471-42bf-a406-b93ec8e1a044&pf_rd_p=c3077bff-a471-42bf-a406-b93ec8e1a044&pf_rd_r=JNS31ATZ7DB02T0NS1VT&pd_rd_wg=K9su7&pd_rd_r=d10aba13-e5f8-4ef2-bb7f-747149a0cef7&pd_rd_i=B0B4DS9M9F&psc=1">Link</a></td>
+              <td>£429.00</td>
+            </tr>
+            <tr>
+              <td>Earphones</td>
+              <td><img src="earphones.jpg" alt="earphones"></td>
+              <td>Samsung Galaxy Buds2 Pro Wireless Earphones, 2 Year Manufacturer Warranty, Graphite</td>
+              <td><a href="https://www.amazon.co.uk/Samsung-Wireless-Earphones-Manufacturer-Warranty/dp/B0B836TJ84/ref=pd_rhf_d_ee_s_pd_crcd_sccl_1_16/258-6025085-6913408?pd_rd_w=dhx1V&content-id=amzn1.sym.48cd8206-854f-4d53-baa5-acd3460f23ee&pf_rd_p=48cd8206-854f-4d53-baa5-acd3460f23ee&pf_rd_r=CASWGSRCAPC00B7N6P0W&pd_rd_wg=wDKeZ&pd_rd_r=7d6c1b4f-2a44-48bd-aaff-e42d9859ed5d&pd_rd_i=B0B836TJ84&psc=1">Link</a></td>
+              <td>£219.00</td>
+            </tr>
+          </table>
+    </div>
+
+    <div>
+        <footer>
+            <p>Contact Details: Sam Ng</p>
+            <p>MyShop, 1000100 Real Street, Dublin, Ireland</p>
+            <p><a href="myshop@example.com">myshop@example.com</a></p>
+          </footer>
+    </div>
+
+    <div>
+        <input type="text" placeholder="Message Box">
+    </div>
+
+    <script>
+        
+        function changeTitleTo(newTitle) {
+            let h1Node = document.getElementsByTagName("h1")
+
+            h1Node.innerText = newTitle
+        }
+
+        function changeBgColor(color) {
+            let bgColor = document.getElementsByTagName("body")
+
+            bgColor.style.backgroundColor = "";
+        }
+
+        function changeFooterAddress(newTitle) {
+            let footerAddress = document.getElementsByTagName("footer")
+
+            footerAddress.innerText = newTitle
+        }
+
+        function addCSSToLink () {
+
+
+        }
+    </script>
+</body>
+</html>
